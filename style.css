@@ -10,11 +10,36 @@ body {
     color: rgb(208, 208, 208);
 }
 
-p{
+.middle-text > p{
     color: rgb(197, 197, 197);
 }
 
 #middle-text{
     padding: 12%;
     text-align: center;
+}
+
+.flex-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.boxes{
+    color: black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255);
+    font-size: 20px;
+    margin: 30px;
+    text-align: center;
+    width: 230px;
+    height: 400px;
+}
+
+.boxes > h4{
+    color: rgb(50, 44, 44);
+}
+
+.boxes > p{
+    font-size: 15px;
 }
