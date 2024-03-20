@@ -11,7 +11,7 @@ body {
 }
 
 .middle-text{
-    padding: 12%;
+    padding: 14%;
     text-align: center;
 }
 
@@ -20,6 +20,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding: 80px;
 }
 .boxes{
     color: black;
@@ -60,7 +61,7 @@ body {
 .progres-box{
     background-color: white;
     text-align: center;
-    padding: 10px;
+    padding: 25px;
     flex: 33%;
     flex-grow: 1;
 }
@@ -70,19 +71,23 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 60%;
+    height: 45%;
     display: flex;
     flex-direction: row;
 }
 
 
+.flex-photo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 
 
-
-
-
-
-
+.progres-box > p{
+    padding: 12px;
+}
 
 @keyframes typing {
     from { width: 0 }
